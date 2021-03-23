@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.pulse_i" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/heart189"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+
+        <activity android:name=".MainActivity"
+            android:label="Pulse-i 걸음수"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".List2Activity"
+            android:label="Pulse-i 이동거리"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".List3Activity"
+            android:label="Pulse-i 활동량"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SigninActivity"
+            android:screenOrientation="portrait" >
+
+        </activity>
+
+
+        <activity android:name=".FirstActivity"
+            android:screenOrientation="portrait">
+
+
+
+        </activity>
+
+        <activity android:name=".BluetoothActivity"
+            android:screenOrientation="portrait">
+
+
+
+        </activity>
+
+        <activity android:name=".BluetoothActivity2"
+            android:screenOrientation="portrait">
+
+
+
+        </activity>
+
+        <activity android:name=".BluetoothActivity_distance"
+            android:screenOrientation="portrait">
+
+
+
+        </activity>
+
+
+    </application>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest>
